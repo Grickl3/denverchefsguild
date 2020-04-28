@@ -1,0 +1,31 @@
+
+
+.ui__buttons {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 600px) {
+	.ui__buttons {
+	flex-direction: row;
+}
+}
+
+.ui__button__primary {
+	background-color: #ffeddd;
+}
+
+.ui__button__secondary {
+	border: 1px solid #ffeddd;
+	background-color: rgba(255,237,221,.5);
+}
+
+.ui__button {
+	margin: 15px 30px 15px 0;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.ui__button:hover {
+	background-color: #9a8872;
+}
